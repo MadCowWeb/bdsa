@@ -1,0 +1,36 @@
+.fl-page-header-container {
+    .fl-page-header-row {
+        display: flex;
+        justify-content: space-between;
+        &:after,
+        &:before {
+            content: none;
+        }
+        .fl-page-header-logo-col {
+            width: 130px;
+            .fl-logo-img {
+                max-width: 128px;
+            }
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                transition: all 0.3s ease-in-out;
+            }
+            &.nav-login-button {
+                a {
+                    background: $navy;
+                    border-radius: 35px;
+                    color: white;
+                    padding: 5px 15px;
+                    margin-top: 10px;
+                    &:hover {
+                        background: $purple;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

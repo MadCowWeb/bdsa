@@ -1,0 +1,67 @@
+.home {
+    .home-color-boxes {
+        .fl-row-content {
+            .fl-col-group {
+                .fl-col {
+                    width: 100%;
+                    margin-bottom: 50px;
+                    @media only screen and (min-width: 950px) {
+                        width: 33%;
+                        margin-bottom: 0;
+                    }
+                    .home-box {
+                        img {
+                            bottom: -50px;
+                            position: relative;
+                            width: 375px;
+                            max-width: 375px;
+                        }
+                    }
+                    .yellow-box {
+                        background-color: $yellow;
+                        img {
+                            bottom: -30px;
+                            right: 50px;
+                        }
+                    }
+                    .blue-box {
+                        background-color: $blue;
+                        img {
+                            margin: 0 auto;
+                            bottom: -30px;
+                            display: block;
+                            width: 301px;
+                            max-width: 100%;
+                            // @media only screen and (min-width: 950px) {
+                            //     right: 18px;
+                            // }
+                        }
+                    }
+                    .peach-box {
+                        background-color: $peach;
+                        img {
+                            right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .video-slider {
+        .fl-content-slider-navigation {
+            top: 40%;
+        }
+        .fl-slide .fl-slide-content {
+            @media (max-width: 768px) {
+                padding: 0;
+            }
+        }
+    }
+    .four-questions {
+        .fl-callout {
+            .fl-icon {
+                margin-top: -30px;
+            }
+        }
+    }
+}
