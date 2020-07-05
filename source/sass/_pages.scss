@@ -1,0 +1,102 @@
+.page-header-hero {
+    &.retail .fl-rich-text h1 {
+        background-color: $blue;
+    }
+    &.consumer .fl-rich-text h1 {
+        background-color: $yellow;
+    }
+    &.industry .fl-rich-text h1 {
+        background-color: $peach;
+    }
+    &.cbd-market .fl-rich-text h1 {
+        background-color: $green;
+    }
+    .fl-rich-text {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        h1 {
+            display: inline;
+            margin: 0 auto;
+            padding: 2rem;
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 2.3;
+            text-align: center;
+        }
+    }
+}
+
+//text slider 
+.sourceline {
+    font-size: 11px;
+}
+
+//RESOURCES PAGES
+.resources-image-overlay img {
+    z-index: 1;
+    position: relative;
+}
+
+.resources-nav-bar {
+    ul {
+        list-style: none;
+        li {
+            float: none;
+            display: inline-block;
+            vertical-align: top;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: all .4s ease;
+            font-size: 16px;
+            line-height: 26px;
+            margin: 0 13px 18px 13px;
+            a {
+                color: #000;
+            }
+        }
+    }
+}
+
+// CANNABIS RETAIL PRICE INDEX PAGE HEADER
+.hero-angled-header {
+    position: relative;
+    height: 400px;
+    .left-panel {
+        vertical-align: top;
+        background-color: $navy;
+        padding: 15px 80px 15px 15px;
+        h3 {
+            color: #fff;
+            @media screen and (min-width: 992px) {
+                position: relative;
+                top: 5%;
+            }
+            @media screen and (min-width: 1300px) {
+                top: 22%
+            }
+        }
+        @media screen and (min-width: 992px) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 30%;
+            clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+            height: 400px;
+            z-index: 1;
+        }
+    }
+    .right-image {
+        background-image: url('/wp-content/uploads/2020/07/Industry-Intel.jpg');
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media screen and (min-width: 992px) {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 80%;
+        }
+    }
+}

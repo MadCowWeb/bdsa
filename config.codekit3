@@ -102,6 +102,19 @@
 		"oS": 3,
 		"sct": 0
 		},
+	"/source/sass/_pages.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/bdsa-styles.min.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
 	"/source/sass/_variables.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -136,7 +149,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 615481400.19779801
+	"lastBuiltDate": 615570705.99844098
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

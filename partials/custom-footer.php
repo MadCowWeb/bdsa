@@ -1,4 +1,4 @@
-<div class="mcw-footer">
+<div class="mcw-footer container">
     <div class="column1">
         <p>
             BDSA<br> 6000 Spine Road - Suite 200 <br> Boulder, CO 80301<br>

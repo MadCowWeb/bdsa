@@ -6,7 +6,8 @@
         &:before {
             content: none;
         }
-        .fl-page-header-logo-col {
+        .fl-page-header-logo-col,
+        .fl-page-logo-wrap {
             width: 130px;
             .fl-logo-img {
                 max-width: 128px;
@@ -23,11 +24,45 @@
                     background: $navy;
                     border-radius: 35px;
                     color: white;
-                    padding: 5px 15px;
-                    margin-top: 10px;
+                    padding: 10px 20px;
+                    margin-top: 5px;
                     &:hover {
                         background: $purple;
                         color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fl-page-nav-right.fl-page-header-fixed {
+    background-color: $navy;
+    .fl-page-header-container.container {
+        padding: 20px 0;
+        .fl-page-nav-wrap ul {
+            &.navbar-nav {
+                li {
+                    a {
+                        color: #fff;
+                        transition: all 0.3s ease-in-out;
+                    }
+                    &.nav-login-button {
+                        a {
+                            background: $purple;
+                            padding: 10px 20px;
+                            margin-top: 0px;
+                        }
+                    }
+                }
+            }
+            &.sub-menu {
+                li {
+                    a {
+                        color: $navy;
+                        &:hover {
+                            color: $purple;
+                        }
                     }
                 }
             }
